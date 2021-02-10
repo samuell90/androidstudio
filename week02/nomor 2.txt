@@ -1,0 +1,26 @@
+Lakukan pengujian terhadap app anda dengan skenario di bawah ini:
+a. Kosongkan Angka 1 dan Angka 2, lalu klik salah satu button
+b. Kosongkan Angka 2, lalu klik button Bagi.
+c. Isi 0 (nol) pada Angka 2, lalu klik button Bagi.
+Tuliskan penjelasan apa yang terjadi, jika terjadi error jelaskan apa error nya dan kemungkinan
+penyebabnya, serta langkah-langkah apa yang dapat memperbaiki error tersebut untuk masingmasing skenario di atas. 
+Submit Tulisan anda melalui isian pada eLearning.
+
+-->
+a. Pada saat angka1 dan angka2 dikosongkan lalu menekan salah satu button operator, aplikasi akan secara paksa ditutup.
+Hal ini kemungkinan dapat terjadi dikarnakan angka1 dan angka2 tidak terdapat input yang seharusnya diproses oleh
+operator, sehingga aplikasi akan terjadi error saat operator dijalankan, dan dikarnakan tidak dapat menghandle error
+tersebut maka aplikasi akan terpaksa ditutup. Langkah-langkah yang mungkin dapat memperbaiki error tersebut adalah
+dengan menerapkan validasi input pada angka1 dan angka2, sehingga harus terdapat input dari angka1 dan angka2
+sebelum operator dijalankan.
+
+b. Ketika angka2 dikosongkan dan angka1 diberikan sebuah input, akan terjadi sebuah error dan mengakibatkan aplikasi harus
+terpaksa ditutup. Hal tersebut dapat terjadi dikarnakan operator tidak menerima input dari angka2 yang akhirnya mengakibatkan
+error yang tidak bisa diatasi oleh aplikasi tersebut, dan harus secara paksa menutup aplikasi tersebut. Menerapkan validasi input
+agar angka2 harus terdapat sebuah input baru dapat menjalankan fungsi operator mungkin merupakan salah satu cara untuk
+dapat mencegah error.
+
+c. Saat angka1 diberikan sebuah input dan angka2 diberikan input berupa 0, operator tambah, kali, kurang akan berjalan sesuai dengan fungsinya
+tetapi operator bagi akan menghasilkan output berupa infinity. Hal tersebut dapat terjadi dikarnakan angka1 mengalami pembagian
+sebanyak tak terhingga, sehingga menghasilkan output infinity. Hal yang mungkin dapat dilakukan adalah dengan memberikan output
+tambahan seperti "tidak bisa dibagi dengan 0", atau semacamnya agar pengguna tidak salah paham dengan output yang diberikan.

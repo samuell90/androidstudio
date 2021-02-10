@@ -1,0 +1,7 @@
+Lakukan debugging pada program anda dengan meletakkan dua breakpoint bebas letaknya.
+Gunakan langkah-langkah step-over, step-into, step-out, dan resume. Tuliskan kesimpulan hasil
+debugging anda dan submit ke isian assignment di eLearning.
+
+--> Kesimpulan dari hasil debugging dengan menggunakan langkah-langkah step-over, step-into, step-out
+adalah data pada angka1 dan angka2 tidak boleh kosong / tidak diisi. Jika salah satu input dari angka1 atau angka2
+tidak diisi lalu menekan operator (/,+,-,*) maka aplikasi akan ditutup secara paksa.

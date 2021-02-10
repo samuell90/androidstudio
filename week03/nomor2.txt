@@ -1,0 +1,3 @@
+Saat aplikasi dijalankan akan tampil output berupa kata 1 sampai kata 21.
+Ketika menekan salah satu kata , kata tersebut akan menjadi kata .. yang pernah diklik, dan ketika
+tombol plus di pojok kanan bawah ditekan, akan muncul kata .. telah ditambahkan dan seterusnya.

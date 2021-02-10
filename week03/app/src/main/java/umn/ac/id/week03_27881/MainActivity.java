@@ -7,13 +7,20 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import java.util.LinkedList;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
+    private final  LinkedList<String> mDaftarKata = new LinkedList<>();
+    private RecyclerView mRecyclerView;
+    private DaftarKataAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +30,26 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        fab.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                int jumlahkata = mDaftarKata.size();
+                mDaftarKata.addLast("kata " + (jumlahkata + 1) + " telah ditambahkan");
+                Objects.requireNonNull(mRecyclerView.getAdapter()).notifyItemInserted(jumlahkata);
+                mRecyclerView.smoothScrollToPosition(jumlahkata);
             }
         });
+
+        for (int i = 0; i < 21; i++)
+        {
+            mDaftarKata.add("Kata " + i);
+        }
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
+        mAdapter = new DaftarKataAdapter(this, mDaftarKata);
+        mRecyclerView.setAdapter(mAdapter);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     @Override
