@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etIsian, eturl;
     private Button btnKirim, btnBrowse;
     private TextView tvJawaban;
+    private Button btnHal1, btnHal2;
 
 
     @Override
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         btnBrowse = findViewById(R.id.buttonBrowse);
         btnKirim = findViewById(R.id.buttonKirim);
         tvJawaban = findViewById(R.id.jawaban);
+        btnHal1 = findViewById(R.id.main_button_change_1);
+        btnHal2 = findViewById(R.id.main_button_change_2);
 
         btnBrowse.setOnClickListener(new View.OnClickListener(){
            @Override
@@ -48,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
 
         btnKirim.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 Intent intentDua = new Intent (MainActivity.this, MainActivity2.class);
                 String isian = etIsian.getText().toString();
                 intentDua.putExtra("PesanDariMain", isian);
@@ -57,20 +61,41 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-
-    @Override
-    public void onActivityResult (int requestCode, int resultCode, Intent data){
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1)
+        btnHal1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v)
             {
-                if (resultCode == RESULT_OK)
-                {
-                    String jawaban = data.getStringExtra("Jawaban");
-                    tvJawaban.setText(jawaban);
-                }
+                Intent intent = new Intent (MainActivity.this, secondActivity.class);
+                startActivity(intent);
             }
 
-        }
+        });
+
+        btnHal2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent (MainActivity.this, ThirdActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+
+//    @Override
+//    public void onActivityResult (int requestCode, int resultCode, Intent data) {
+//
+//        if (requestCode == 1)
+//            {
+//                if (resultCode == RESULT_OK)
+//                {
+//                    String jawaban = data.getStringExtra("Jawaban");
+//                    tvJawaban.setText(jawaban);
+//                }
+//            }
+//            super.onActivityResult(requestCode, resultCode, data);
+//
+//        }
 
 
 
