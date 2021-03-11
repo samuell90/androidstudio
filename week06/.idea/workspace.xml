@@ -6,175 +6,13 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ac70511-a5b0-4f0d-8832-2b9a576d9951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/umn/ac/id/week06_27881/Drawable/DrawableActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/umn/ac/id/week06_27881/Fisika/FisikaActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/umn/ac/id/week06_27881/Fisika/TombolFling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/umn/ac/id/week06_27881/Fisika/TombolSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/umn/ac/id/week06_27881/Properti/PropertiActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/umn/ac/id/week06_27881/Properti/ViewAnimasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/kuda11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kuda_lari.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_drawable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fisika.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_properti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/androidTest/java/umn/ac/id/week06_27881/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/java/umn/ac/id/week06_27881/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/java/umn/ac/id/week06_27881/ViewAnimasi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/app/src/test/java/umn/ac/id/week06_27881/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06A/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/androidTest/java/umn/ac/id/week06b_27881/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/java/umn/ac/id/week06b_27881/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable-v24/kuda11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/drawable/kuda_lari.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/app/src/test/java/umn/ac/id/week06b_27881/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06B/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/androidTest/java/umn/ac/id/week06c_27881/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/java/umn/ac/id/week06c_27881/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/java/umn/ac/id/week06c_27881/TombolFling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/java/umn/ac/id/week06c_27881/TombolSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/app/src/test/java/umn/ac/id/week06c_27881/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week06C/settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="6ac70511-a5b0-4f0d-8832-2b9a576d9951" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5_API_25]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -356,6 +194,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="349" y="172" key="AndroidCreateResourceFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1614766058960" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1615176668176">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615176668176" />
     <state x="584" y="195" key="chooseDestDirectoryDialog" timestamp="1614766037683">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

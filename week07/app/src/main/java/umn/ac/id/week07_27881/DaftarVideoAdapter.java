@@ -1,0 +1,83 @@
+package umn.ac.id.week07_27881;
+
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.VideoView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.LinkedList;
+
+import umn.ac.id.week07_27881.R;
+
+public class DaftarVideoAdapter extends RecyclerView.Adapter<DaftarVideoAdapter.ItemVideoViewHolder> {
+
+    private LinkedList<SumberVideo> mDaftarVideo;
+    private LayoutInflater mInflater;
+    private Context mContext;
+
+    public DaftarVideoAdapter (Context context, LinkedList<SumberVideo> daftarVideo) {
+        this.mContext = context;
+        this.mDaftarVideo = daftarVideo;
+        this.mInflater = LayoutInflater.from(context);
+    }
+
+    @NonNull
+    @Override
+    public ItemVideoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = mInflater.inflate(R.layout.video_item_layout, parent, false);
+        return new ItemVideoViewHolder(view, this);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull DaftarVideoAdapter.ItemVideoViewHolder holder, int position) {
+        SumberVideo mSumberVideo = mDaftarVideo.get(position);
+        holder.tvJudul.setText(mSumberVideo.getJudul());
+        holder.tvKeterangan.setText(mSumberVideo.getKeterangan());
+        holder.tvUri.setText(mSumberVideo.getKeterangan());
+        holder.videoBox.setVideoURI(Uri.parse(mSumberVideo.getVideoURI()));
+        holder.videoBox.seekTo(100);
+    }
+
+    @Override
+    public int getItemCount() {
+        return mDaftarVideo.size();
+    }
+
+    class ItemVideoViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
+        private VideoView videoBox;
+        private TextView tvJudul, tvKeterangan, tvUri;
+        private DaftarVideoAdapter mAdapter;
+        private int mPosisi;
+        private SumberVideo mSumberVideo;
+
+        public ItemVideoViewHolder(@NonNull View itemView, DaftarVideoAdapter adapter) {
+            super(itemView);
+            mAdapter = adapter;
+            videoBox = itemView.findViewById(R.id.kotakVideo);
+            tvJudul = itemView.findViewById(R.id.tvJudul);
+            tvKeterangan = itemView.findViewById(R.id.tvKeterangan);
+            tvUri = itemView.findViewById(R.id.tvUri);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick (View v) {
+            mPosisi = getLayoutPosition();
+            mSumberVideo = mDaftarVideo.get(mPosisi);
+            Intent detilInten = new Intent(mContext, DetilVideoActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putSerializable("DetilVideo", mSumberVideo);
+            detilInten.putExtras(bundle);
+            mContext.startActivity(detilInten);
+        }
+    }
+}
